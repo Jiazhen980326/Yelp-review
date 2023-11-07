@@ -1,0 +1,13 @@
+name: NLP
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+
+  - pip:
+      - scikit-learn
+      - pandas
+      - torch
+      - tensorflow
+      - mlflow
